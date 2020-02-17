@@ -1,0 +1,8 @@
+{
+	"AMAZON.YesIntent": "yes",
+	"AMAZON.NoIntent": "no",
+	"BeginIntent": "begin, to start",
+	"GoBackIntent": "go back, to keep playing",
+	"AloneIntent": "alone",
+	"TogetherIntent": "together"
+}
