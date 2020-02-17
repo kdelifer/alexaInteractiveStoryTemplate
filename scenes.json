@@ -1,64 +1,22 @@
+// Fill in empty strings to create scenes and link them together in the "options".
 {
 	"Help": {
-		"text": "To start a new game, say, start over. To repeat the last question, say, repeat. To go back, say, go back. To exit this skill, say, exit skill.",
+		"text": "HELP TEXT",
 		"options": [
 			["GoBackIntent", ""]
 		]
 	},"Welcome": {
-		"text": "Welcome to the Three Broke Boars. In this interactive adventure game, you are a boar who was kicked out of his home. Say, go back, if you get stuck. Good luck.",
+		"text": "",
 		"options": [
-			["BeginIntent", "The Destined Day"]
+			["BeginIntent", "SCENE NAME"]
 		]
 	},
-	"The Destined Day": {
-		"text": "You wake up and sigh. Today's the day. Looking over, you see that your two siblings are already awake and getting ready. Their names are, uh, nevermind, it doesn't matter. What matters is that today is the day that you'll be moving out to start your own life. Are you excited?",
+	"SCENE NAME": {
+		"text": "TEXT",
 		"options": [
-			["AMAZON.YesIntent", "Excited to Begin"],
-			["AMAZON.NoIntent", "SOL"]
+			["AMAZON.YesIntent", "NEXT SCENE 1"],
+			["AMAZON.NoIntent", "NEXT SCENE 2"]
 		]
-	},
-	"Excited to Begin": {
-		"text": "Awesome. Your heart races with excitement as the three of you exit your room and stand before your mother. With proud eyes, she says, To help you on your journey, I dipped into my savings and have split seventeen dollars amongst the three of you. She then gives you each an envelope before kissing your head and leaving. Do you leave with your siblings or head out alone?",
-		"options": [
-			["TogetherIntent", "Ganging"],
-			["AloneIntent", "Lone Wolf"]
-		]
-	},
-	"SOL": {
-		"text": "Well too bad. I didn't want to move out either. I used to have my own room. But now I have to share a living room with sixty kids and build Alexa apps to pay for it. So buck up cuz life ain't fair. . While wondering if a wall had been broken, you exit your room and stand before your mother. With proud eyes, she says, To help you on your journey, I dipped into my savings and have split seventeen dollars amongst the three of you. She then gives you each an envelope before kissing your head and leaving. Do you leave with your siblings or head out alone?",
-		"options": [
-			["TogetherIntent", "Ganging"],
-			["AloneIntent", "Lone Wolf"]
-		]
-	},
-	"Lone Wolf": {
-		"text": "Confident, you stride out and start heading towards the city. As you progress down the path, you start to notice large claw marks on the trees around you. Your plot armor tingles and as you dive behind a bush, a brown bear suddenly emerges in front of you. She looks starved and her eyes are wild as she motions to her cubs. You reach into your back pocket. Did you remember to bring your knife?",
-		"options": [
-			["AMAZON.YesIntent", "Bear Knife"],
-			["AMAZON.NoIntent", "Shucks, I Forgot It"]
-		]
-	},
-	"Shucks, I Forgot It": {
-		"text": "You can't find anything useful in your back pocket, so you instead reach in your jacket and pull out your only grenade. You'd stolen it from your older brother after he used it to scare you last month. Do you use it?",
-		"options": [
-			["AMAZON.YesIntent", "Rambo Swine"],
-			["", ""]
-		]
-	},
-	"Rambo Swine": {
-		"text": "You pull the pin, cook it, and perfectly toss it under the mama bear. As you brace for bear parts to splatter you and the surrounding shrubbery. Nothing happens. Looking over, you see the bear look back at you. As you're mauled and fed to her cubs, you can't help but regret that your brother isn't a psychopath who'd put an actual bomb under your pillow. You have died, the bright light beckons you.",
-		"options": []
-	},
-	"Bear Knife": {
-		"text": "You pull your bear knife out of your back pocket. The sight of its three inch blade fills you with confidence. Looking up, you watch as the bear turns her back to you. This is your chance, do you take it?",
-		"options": [
-			["AMAZON.YesIntent", "Rambo Hog"],
-			["AMAZON.NoIntent", ""]
-		]
-	},
-	"Rambo Hog": {
-		"text": "You dash out and leap onto the bear, plunging your blade into her neck. She becomes still, and cranes her neck to look at you. You look back and see that her once hungry expression has been replaced by. Curiosity? She neatly stands up, shakes you off, and proceeds to maul you and feed you to her cubs. I honestly don't know what you expected to be able to do against a bear with a knife. You have died, the light is blinding.",
-		"options": []
 	},
 	"": {
 		"text": "",
